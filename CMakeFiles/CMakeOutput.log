@@ -1,0 +1,208 @@
+The target system is: Generic -  - 
+The host system is: Darwin - 16.5.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/3.8.0/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3062f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3062f.dir/build.make CMakeFiles/cmTC_3062f.dir/build
+Building C object CMakeFiles/cmTC_3062f.dir/testCCompiler.c.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -o CMakeFiles/cmTC_3062f.dir/testCCompiler.c.obj   -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3062f
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3062f.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm      CMakeFiles/cmTC_3062f.dir/testCCompiler.c.obj  -o cmTC_3062f 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc1bd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc1bd.dir/build.make CMakeFiles/cmTC_bc1bd.dir/build
+Building C object CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -o CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj   -c /usr/local/Cellar/cmake/3.8.0/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bc1bd
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc1bd.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm     -v CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj  -o cmTC_bc1bd 
+Using built-in specs.
+COLLECT_GCC=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/0899942388fbb00fc6ca4802fb5910ae --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/0899942388fbb00fc6ca4802fb5910ae --with-sysroot=/tmp/0899942388fbb00fc6ca4802fb5910ae/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/0899942388fbb00fc6ca4802fb5910ae/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc1bd' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/gx/2rzhrgmx5mz5489kpxbnvsnm0000gn/T//ccZpjCq8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_bc1bd /Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj -lgcc -lc -ldl -lgcc /Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bc1bd/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc1bd.dir/build.make CMakeFiles/cmTC_bc1bd.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -o CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj   -c /usr/local/Cellar/cmake/3.8.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_bc1bd]
+  ignore line: [/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc1bd.dir/link.txt --verbose=1]
+  ignore line: [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm     -v CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj  -o cmTC_bc1bd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/0899942388fbb00fc6ca4802fb5910ae --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/0899942388fbb00fc6ca4802fb5910ae --with-sysroot=/tmp/0899942388fbb00fc6ca4802fb5910ae/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/0899942388fbb00fc6ca4802fb5910ae/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc1bd' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/gx/2rzhrgmx5mz5489kpxbnvsnm0000gn/T//ccZpjCq8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_bc1bd /Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj -lgcc -lc -ldl -lgcc /Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/gx/2rzhrgmx5mz5489kpxbnvsnm0000gn/T//ccZpjCq8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bc1bd] ==> ignore
+    arg [/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib] ==> dir [/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+    arg [CMakeFiles/cmTC_bc1bd.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib] ==> [/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+  implicit libs: [c;dl]
+  implicit dirs: [/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7ad1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a7ad1.dir/build.make CMakeFiles/cmTC_a7ad1.dir/build
+Building C object CMakeFiles/cmTC_a7ad1.dir/feature_tests.c.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm   -std=c11 -o CMakeFiles/cmTC_a7ad1.dir/feature_tests.c.obj   -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a7ad1
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7ad1.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm      CMakeFiles/cmTC_a7ad1.dir/feature_tests.c.obj  -o cmTC_a7ad1 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24296/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_24296.dir/build.make CMakeFiles/cmTC_24296.dir/build
+Building C object CMakeFiles/cmTC_24296.dir/feature_tests.c.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm   -std=c99 -o CMakeFiles/cmTC_24296.dir/feature_tests.c.obj   -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/feature_tests.c
+Linking C executable cmTC_24296
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24296.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm      CMakeFiles/cmTC_24296.dir/feature_tests.c.obj  -o cmTC_24296 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e04fa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e04fa.dir/build.make CMakeFiles/cmTC_e04fa.dir/build
+Building C object CMakeFiles/cmTC_e04fa.dir/feature_tests.c.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm   -std=c90 -o CMakeFiles/cmTC_e04fa.dir/feature_tests.c.obj   -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e04fa
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e04fa.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm      CMakeFiles/cmTC_e04fa.dir/feature_tests.c.obj  -o cmTC_e04fa 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94033/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_94033.dir/build.make CMakeFiles/cmTC_94033.dir/build
+Building CXX object CMakeFiles/cmTC_94033.dir/testCXXCompiler.cxx.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi    -o CMakeFiles/cmTC_94033.dir/testCXXCompiler.cxx.obj -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_94033
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94033.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm  	-lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi     CMakeFiles/cmTC_94033.dir/testCXXCompiler.cxx.obj  -o cmTC_94033 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d872/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5d872.dir/build.make CMakeFiles/cmTC_5d872.dir/build
+Building CXX object CMakeFiles/cmTC_5d872.dir/CMakeCXXCompilerABI.cpp.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi    -o CMakeFiles/cmTC_5d872.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/Cellar/cmake/3.8.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5d872
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d872.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm  	-lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi     CMakeFiles/cmTC_5d872.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_5d872 
+
+
+Performing C++ SOURCE FILE Test JRTPLIB_STDINT succeeded with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64e6a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_64e6a.dir/build.make CMakeFiles/cmTC_64e6a.dir/build
+Building CXX object CMakeFiles/cmTC_64e6a.dir/src.cxx.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi -DJRTPLIB_STDINT   -o CMakeFiles/cmTC_64e6a.dir/src.cxx.obj -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64e6a
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64e6a.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm  	-lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi -DJRTPLIB_STDINT    CMakeFiles/cmTC_64e6a.dir/src.cxx.obj  -o cmTC_64e6a 
+
+Source file was:
+#include <stdint.h>
+#include <sys/types.h>
+int main(void) { size_t a = 0 ; size_t b = a; uint32_t x = 0; uint32_t y = x; return 0; }

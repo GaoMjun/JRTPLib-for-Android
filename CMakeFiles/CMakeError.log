@@ -1,0 +1,143 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm
+Build flags: 	-lc;			-lgcc;			-lstdc++;-lsupc++;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include;			-L./JThread-Android/android-build/lib;			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi
+Id flags:  
+
+The output was:
+1
+arm-linux-androideabi-g++: error: 	-lc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lgcc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lstdc++: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-L./JThread-Android/android-build/lib: No such file or directory
+arm-linux-androideabi-g++: error: 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm
+Build flags: 	-lc;			-lgcc;			-lstdc++;-lsupc++;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include;			-L./JThread-Android/android-build/lib;			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi
+Id flags: -c 
+
+The output was:
+1
+arm-linux-androideabi-g++: error: 	-lc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lgcc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lstdc++: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-L./JThread-Android/android-build/lib: No such file or directory
+arm-linux-androideabi-g++: error: 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi: No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+arm-linux-androideabi-g++: error: 	-lc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lgcc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lstdc++: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-L./JThread-Android/android-build/lib: No such file or directory
+arm-linux-androideabi-g++: error: 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi: No such file or directory
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_705bf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_705bf.dir/build.make CMakeFiles/cmTC_705bf.dir/build
+Building CXX object CMakeFiles/cmTC_705bf.dir/testCXXCompiler.cxx.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ -lsupc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi    -o CMakeFiles/cmTC_705bf.dir/testCXXCompiler.cxx.obj -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_705bf
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_705bf.dir/link.txt --verbose=1
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm  	-lc 			-lgcc 			-lstdc++ -lsupc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi     CMakeFiles/cmTC_705bf.dir/testCXXCompiler.cxx.obj  -o cmTC_705bf 
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lsupc++
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_705bf] Error 1
+make: *** [cmTC_705bf/fast] Error 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm
+Build flags: 	-lc;			-lgcc;			-lstdc++;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include;			-L./JThread-Android/android-build/lib;			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi
+Id flags:  
+
+The output was:
+1
+arm-linux-androideabi-g++: error: 	-lc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lgcc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lstdc++: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-L./JThread-Android/android-build/lib: No such file or directory
+arm-linux-androideabi-g++: error: 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm
+Build flags: 	-lc;			-lgcc;			-lstdc++;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include;			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include;			-L./JThread-Android/android-build/lib;			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi
+Id flags: -c 
+
+The output was:
+1
+arm-linux-androideabi-g++: error: 	-lc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lgcc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lstdc++: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-L./JThread-Android/android-build/lib: No such file or directory
+arm-linux-androideabi-g++: error: 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi: No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+arm-linux-androideabi-g++: error: 	-lc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lgcc: No such file or directory
+arm-linux-androideabi-g++: error: 			-lstdc++: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include: No such file or directory
+arm-linux-androideabi-g++: error: 			-L./JThread-Android/android-build/lib: No such file or directory
+arm-linux-androideabi-g++: error: 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi: No such file or directory
+arm-linux-androideabi-g++: fatal error: no input files
+compilation terminated.
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7f46/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7f46.dir/build.make CMakeFiles/cmTC_e7f46.dir/build
+Building CXX object CMakeFiles/cmTC_e7f46.dir/CheckIncludeFile.cxx.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi    -o CMakeFiles/cmTC_e7f46.dir/CheckIncludeFile.cxx.obj -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:23: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e7f46.dir/CheckIncludeFile.cxx.obj] Error 1
+make: *** [cmTC_e7f46/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3581c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3581c.dir/build.make CMakeFiles/cmTC_3581c.dir/build
+Building CXX object CMakeFiles/cmTC_3581c.dir/CheckIncludeFile.cxx.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi    -o CMakeFiles/cmTC_3581c.dir/CheckIncludeFile.cxx.obj -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:24: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+                        ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_3581c.dir/CheckIncludeFile.cxx.obj] Error 1
+make: *** [cmTC_3581c/fast] Error 2
+
+
+Determining if the include file ifaddrs.h exists failed with the following output:
+Change Dir: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cf85/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3cf85.dir/build.make CMakeFiles/cmTC_3cf85.dir/build
+Building CXX object CMakeFiles/cmTC_3cf85.dir/CheckIncludeFile.cxx.obj
+/Users/mannix/Android_SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   --sysroot=/Users/mannix/Android_SDK/ndk-bundle/platforms/android-9/arch-arm    -lc 			-lgcc 			-lstdc++ 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/include 			-I/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include 			-L./JThread-Android/android-build/lib 			-L/Users/mannix/Android_SDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/libs/armeabi    -o CMakeFiles/cmTC_3cf85.dir/CheckIncludeFile.cxx.obj -c /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:21: fatal error: ifaddrs.h: No such file or directory
+ #include <ifaddrs.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_3cf85.dir/CheckIncludeFile.cxx.obj] Error 1
+make: *** [cmTC_3cf85/fast] Error 2
+
+
