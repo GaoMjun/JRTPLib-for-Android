@@ -5,6 +5,10 @@ set(VERSION 3.9.0)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake")
 
+#set(JThread_dir ${PROJECT_SOURCE_DIR}/JThread-Android)
+#include_directories(${JThread_dir}/android-build/include)
+#link_directories(${JThread_dir}/android-build/lib/libjthread.a)
+
 set (_DEFAULT_LIBRARY_INSTALL_DIR lib)
 if (EXISTS "${CMAKE_INSTALL_PREFIX}/lib32/" AND CMAKE_SIZEOF_VOID_P EQUAL 4)
 	set (_DEFAULT_LIBRARY_INSTALL_DIR lib32)
@@ -113,7 +117,7 @@ endif (NOT UNIX)
 save_paths(JRTPLIB_INTERNAL_INCLUDES "${PROJECT_SOURCE_DIR}/src" "${PROJECT_BINARY_DIR}/src")
 
 add_subdirectory(src)
-add_subdirectory(examples)
+#add_subdirectory(examples)
  
 if (UNIX)
 	get_target_property(JRTPLIB_LOCAL_LIBRARY_NAME jrtplib-shared LOCATION)

@@ -1,90 +1,96 @@
-# Install script for directory: /Users/codex/Documents/Development/C++/jrtplib-3.9.0/src
+# Install script for directory: /Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src
 
 # Set the install prefix
-IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/android-build")
-ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/android-build")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
 # Set the install configuration name.
-IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
-  IF(BUILD_TYPE)
-    STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
-  ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "")
-  ENDIF(BUILD_TYPE)
-  MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
-ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
 
 # Set the component getting installed.
-IF(NOT CMAKE_INSTALL_COMPONENT)
-  IF(COMPONENT)
-    MESSAGE(STATUS "Install component: \"${COMPONENT}\"")
-    SET(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
-  ELSE(COMPONENT)
-    SET(CMAKE_INSTALL_COMPONENT)
-  ENDIF(COMPONENT)
-ENDIF(NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
 
-IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/jrtplib3" TYPE FILE FILES
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpapppacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpbyepacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpcompoundpacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpcompoundpacketbuilder.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcppacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcppacketbuilder.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcprrpacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpscheduler.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpsdesinfo.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpsdespacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpsrpacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtcpunknownpacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpaddress.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpcollisionlist.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpconfig.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpdebug.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpdefines.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtperrors.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtphashtable.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpinternalsourcedata.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpipv4address.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpipv4destination.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpipv6address.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpipv6destination.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpkeyhashtable.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtplibraryversion.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpmemorymanager.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpmemoryobject.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtppacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtppacketbuilder.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtppollthread.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtprandom.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtprandomrand48.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtprandomrands.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtprandomurandom.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtprawpacket.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpsession.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpsessionparams.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpsessionsources.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpsourcedata.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpsources.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpstructs.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtptimeutilities.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtptransmitter.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtptypes_win.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtptypes.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpudpv4transmitter.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpudpv6transmitter.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpbyteaddress.h"
-    "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/rtpexternaltransmitter.h"
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/jrtplib3" TYPE FILE FILES
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpapppacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpbyepacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpcompoundpacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpcompoundpacketbuilder.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcppacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcppacketbuilder.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcprrpacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpscheduler.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpsdesinfo.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpsdespacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpsrpacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtcpunknownpacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpaddress.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpcollisionlist.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpconfig.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpdebug.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpdefines.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtperrors.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtphashtable.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpinternalsourcedata.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpipv4address.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpipv4destination.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpipv6address.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpipv6destination.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpkeyhashtable.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtplibraryversion.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpmemorymanager.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpmemoryobject.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtppacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtppacketbuilder.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtppollthread.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtprandom.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtprandomrand48.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtprandomrands.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtprandomurandom.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtprawpacket.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpsession.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpsessionparams.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpsessionsources.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpsourcedata.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpsources.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpstructs.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtptimeutilities.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtptransmitter.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtptypes_win.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtptypes.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpudpv4transmitter.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpudpv6transmitter.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpbyteaddress.h"
+    "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/rtpexternaltransmitter.h"
     )
-ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+endif()
 
-IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/android-build/lib/libjrtplib.a")
-FILE(INSTALL DESTINATION "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/android-build/lib" TYPE STATIC_LIBRARY FILES "/Users/codex/Documents/Development/C++/jrtplib-3.9.0/src/libjrtplib.a")
-ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/android-build/lib/libjrtplib.a")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/android-build/lib" TYPE STATIC_LIBRARY FILES "/Users/mannix/SourceTree/JRTPLib/app/src/main/cpp/JRTPLib-for-Android/src/libjrtplib.a")
+endif()
 
